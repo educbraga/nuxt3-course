@@ -6,4 +6,10 @@ export default defineNuxtConfig({
 		'@': resolve(__dirname, '/'),
 	},
 	css: ["~/assets/css/main.scss"],
+	postcss: {
+    	plugins: {
+    	  tailwindcss: {},
+    	  autoprefixer: {},
+    	},
+  },
 });
