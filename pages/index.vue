@@ -1,5 +1,7 @@
 <template>
-	<div>
-		My main page
+	<div class="main">
+		<Header/>
+		<Alert/>
+		<ProfileHeader/>
 	</div>
 </template>
