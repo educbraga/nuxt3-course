@@ -7,3 +7,9 @@
 		<!-- <img src="@/public/photo2.jpg"> -->
 	</div>
 </template>
+
+<script>
+	const { helloWorld } = useUtils();
+
+	helloWorld();
+</script>
