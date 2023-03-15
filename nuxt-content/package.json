@@ -11,6 +11,7 @@
     "nuxt": "^3.2.3"
   },
   "dependencies": {
-    "@nuxtjs/tailwindcss": "^6.6.0"
+    "@nuxtjs/tailwindcss": "^6.6.0",
+    "sass": "^1.59.3"
   }
 }
