@@ -1,11 +1,8 @@
-# Nuxt Content
-
-Hello world :)
-
-This page corresponds to the `/` route of your website. You can delete it or create another file in the `content/` directory.
-
-Try to navigate to [/about](/about). These 2 pages are rendered by the `pages/[...slug].vue` component.
-
 ---
+title: "This is my nuxt content maind page"
+---
+<!-- É possível colocar outras informações meta acima. -->
 
-Look at the [Content documentation](https://content.nuxtjs.org/) to learn more.
+# Home
+
+[Go to profile](/profile)
