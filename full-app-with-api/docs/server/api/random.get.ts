@@ -1,3 +1,5 @@
+import { countryList } from "@doubco/countries";
+
 export default () => { 
-	return { 'msg': "Hello world" } 
+	return countryList[Math.floor(Math.random() * countryList.length)];
 }
